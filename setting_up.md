@@ -26,3 +26,5 @@ Next, we want to make the environment avaiable for Jupyter Notebook.
 pip install ipykernel
 python -m ipykernel install --user --name=myenv
 ```
+
+(In case you want to remove an environment, you could use ``jupyter kernelspec uninstall my_environment``.)
