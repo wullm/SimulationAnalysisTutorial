@@ -13,7 +13,7 @@ mkdir ~/venvs && cd ~/venvs
 python -m venv my_environment
 ```
 
-To activate, the environment run
+To activate the environment run
 
 ```
 source my_environment/bin/activate
@@ -38,5 +38,5 @@ ssh -L localhost:8443:login8b:443 USER@login8b.cosma.dur.ac.uk
 
 replacing ``USER`` with your cosma username. You can then access Jupyter via https://localhost:8443/. See https://cosma.readthedocs.io/en/latest/jupyter.html for further instructions.
 
-
+TODO: how to run Jupyter on a compute node.
 
