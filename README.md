@@ -1,4 +1,4 @@
-# ExGal Summer School Tutorial 1: Analyzing simulations
+# ExGal Summer School Tutorial: Analyzing simulations
 
 In this tutorial, you will gain some experience with the basic analysis of cosmological N-body simulations. The tutorial consists of three parts, each chapter introducing you to a different set of codes.
 
