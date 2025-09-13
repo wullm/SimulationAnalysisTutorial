@@ -10,7 +10,6 @@ Once you're logged into cosma, run the following commands in the terminal. This 
 
 ```
 mkdir ~/venvs && cd ~/venvs
-pip install virtualenv
 python -m venv my_environment
 ```
 
@@ -24,7 +23,7 @@ Next, we want to make the environment avaiable for Jupyter Notebook.
 
 ```
 pip install ipykernel
-python -m ipykernel install --user --name=myenv
+python -m ipykernel install --user --name=my_environment
 ```
 
-(In case you want to remove an environment, you could use ``jupyter kernelspec uninstall my_environment``.)
+(In case you want to remove an environment from Jupyter, you could use ``jupyter kernelspec uninstall my_environment``. To delete the environment altogether, you can simply remove the corresponding directory.)
