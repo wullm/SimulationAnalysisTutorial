@@ -28,6 +28,18 @@ python -m ipykernel install --user --name=my_environment
 
 (In case you want to remove an environment from Jupyter, you could use ``jupyter kernelspec uninstall my_environment``. To delete the environment altogether, you can simply remove the corresponding directory.)
 
+## Installing basic packages
+
+You will need to install the following Python packages
+
+```
+pip install pylians
+pip install pynbody
+pip install swiftsimio
+pip install swiftgalaxy
+pip install h5glance
+```
+
 ## Connecting to Jupyter
 
 To connect to Jupyter Hub, run the following command on your local machine
