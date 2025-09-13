@@ -27,3 +27,16 @@ python -m ipykernel install --user --name=my_environment
 ```
 
 (In case you want to remove an environment from Jupyter, you could use ``jupyter kernelspec uninstall my_environment``. To delete the environment altogether, you can simply remove the corresponding directory.)
+
+## Connecting to Jupyter
+
+To connect to Jupyter Hub, run the following command on your local machine
+
+```
+ssh -L localhost:8443:login8b:443 USER@login8b.cosma.dur.ac.uk
+```
+
+replacing ``USER`` with your cosma username. You can then access Jupyter via https://localhost:8443/. See https://cosma.readthedocs.io/en/latest/jupyter.html for further instructions.
+
+
+
