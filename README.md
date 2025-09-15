@@ -48,7 +48,5 @@ To connect to Jupyter Hub, run the following command on your local machine
 ssh -L localhost:8443:login8b:443 USER@login8b.cosma.dur.ac.uk
 ```
 
-replacing ``USER`` with your cosma username. You can then access Jupyter via https://localhost:8443/. See https://cosma.readthedocs.io/en/latest/jupyter.html for further instructions.
-
-TODO: how to run Jupyter on a compute node.
+replacing ``USER`` with your cosma username. You can then access Jupyter via https://localhost:8443/. See https://cosma.readthedocs.io/en/latest/jupyter.html for further instructions. This page also contains instructions for running Jupyter on a compute node.
 
