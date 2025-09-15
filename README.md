@@ -19,7 +19,7 @@ To activate the environment run
 source my_environment/bin/activate
 ```
 
-Next, we want to make the environment avaiable for Jupyter Notebook.
+Next, we want to make the environment available for Jupyter Notebook.
 
 ```
 pip install ipykernel
