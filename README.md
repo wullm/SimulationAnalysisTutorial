@@ -28,7 +28,7 @@ python -m ipykernel install --user --name=my_environment
 
 (In case you want to remove an environment from Jupyter, you could use ``jupyter kernelspec uninstall my_environment``. To delete the environment altogether, you can simply remove the corresponding directory.)
 
-## Installing basic packages
+## Required packages
 
 You will need to install the following Python packages
 
